@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  /* Categories Section start */
+  .singleCate {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 31%;
+    padding: 10px;
+  }
+  .singleCate img {
+    width: 35%;
+  }
+  .cateThree {
+    margin-top: 0px;
+  }
+  .cate {
+    font-size: 25px;
+  }
+  /* Categories Section end */
+  /* shoes section start */
+
+  .singleShoes {
+    width: 48%;
+  }
+  .shoesWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  /* shoes section end */
+}
